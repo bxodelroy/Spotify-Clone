@@ -1,13 +1,13 @@
 //updated for GitHub
 console.log("hello");
-//let songs = [];
+
 
 
 let songs = [
-  "https://drive.google.com/uc?export=download&id=14aAlccAbGJJwJyTMdw6c-vGYAlvzCKu7",
-  "https://drive.google.com/uc?export=download&id=1mP99pzrHg7dCbRZ-HudgJe8pDWJlF1Qw",
-  " https://drive.google.com/uc?export=download&id=1wraNyvx6Iy7jcjk-rsATB4NLICgEnlPU",
-  " https://drive.google.com/uc?export=download&id=1Rtao1eyqJL89cQdiG81Wp-kgEBsvtUCQ",
+  "https://upcdn.io/223k2TX/raw/A%20Doin%20Time%20-%20Lana%20Del%20Rey.mp3",
+  "https://upcdn.io/223k2TX/raw/B%20Woh.mp3",
+  "https://upcdn.io/223k2TX/raw/C%20Don't%20Cry%20%20-%20Guns%20N'%20Roses.mp3",
+  "https://upcdn.io/223k2TX/raw/D%20Tu%20Mera%20-%20Baibhab%20Roy.mp3",
 ];
 
 let playerBox = document.querySelector(".player-box");
