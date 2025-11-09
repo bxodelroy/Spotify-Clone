@@ -1,6 +1,15 @@
 //updated for GitHub
 console.log("hello");
-let songs = [];
+//let songs = [];
+
+
+let songs = [
+  "https://drive.google.com/uc?export=download&id=14aAlccAbGJJwJyTMdw6c-vGYAlvzCKu7",
+  "https://drive.google.com/uc?export=download&id=1mP99pzrHg7dCbRZ-HudgJe8pDWJlF1Qw",
+  " https://drive.google.com/uc?export=download&id=1wraNyvx6Iy7jcjk-rsATB4NLICgEnlPU",
+  " https://drive.google.com/uc?export=download&id=1Rtao1eyqJL89cQdiG81Wp-kgEBsvtUCQ",
+];
+
 let playerBox = document.querySelector(".player-box");
 let pause = document.querySelector(".pause");
 let play = document.querySelector("#play");
@@ -115,7 +124,7 @@ autoPlay.addEventListener("click", () => {
 
 
 
-async function getSongs() {
+/*async function getSongs() {
     //let a = await fetch("http://127.0.0.1:5500/songs/");
     //let a = await fetch("https://bxodelroy.github.io/Spotify-Clone/songs/");
     //let a = await fetch("https://bxodelroy.github.io/Spotify-Clone/songs/index.html");
@@ -141,52 +150,16 @@ async function getSongs() {
     
 
     return songs
-}
-
-/*async function getSongs() {
-    let a = await fetch("http://127.0.0.1:5500/songs/");
-    let response = await a.text();
-
-    let div = document.createElement("div");
-    div.innerHTML = response;
-    let as = div.getElementsByTagName("a");
-
-    // Create a map of file name → href
-    const fileMap = {};
-    for (let element of as) {
-        if (element.href.endsWith(".mp3")) {
-            const name = element.href.split("/").pop(); // just the file name
-            fileMap[name] = element.href;
-        }
-    }
-
-    // Match each card's song using its file name
-    const cardButtons = document.querySelectorAll(".play-button");
-    const orderedSongs = [];
-    cardButtons.forEach(btn => {
-        const index = parseInt(btn.dataset.song, 10);
-        const card = btn.closest(".card");
-        if (card) {
-            const songName = card.querySelector(".song").innerText.trim();
-            const singerName = card.querySelector(".name").innerText.trim();
-            
-            // Construct the expected filename (adjust if your filenames differ)
-            const fileKey = `${songName}.mp3`; 
-            if (fileMap[fileKey]) {
-                orderedSongs[index] = fileMap[fileKey];
-            }
-        }
-    });
-
-    return orderedSongs.filter(Boolean);
 }*/
 
 
 
 
+
+
 async function main() {
-    songs = await getSongs(); // Use the fetched list directly
-    console.log(songs);
+    //songs = await getSongs(); // Use the fetched list directly
+    //console.log(songs);
 
     let playBtn = document.querySelectorAll(".play-button");
     playBtn.forEach(btn => {
