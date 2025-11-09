@@ -119,7 +119,9 @@ async function getSongs() {
     //let a = await fetch("http://127.0.0.1:5500/songs/");
     //let a = await fetch("https://bxodelroy.github.io/Spotify-Clone/songs/");
     //let a = await fetch("https://bxodelroy.github.io/Spotify-Clone/songs/index.html");
-    let a = await fetch("https://bxodelroy.github.io/Spotify-Clone/");
+    //let a = await fetch("https://bxodelroy.github.io/Spotify-Clone/");
+    let a = await fetch("https://bxodelroy.github.io/Spotify-Clone/songs/");
+
 
 
 
