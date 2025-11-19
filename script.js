@@ -4,35 +4,35 @@ console.log("hello");
 
 
 let songs = [
-  "https://upcdn.io/223k2TX/raw/A%20Doin%20Time%20-%20Lana%20Del%20Rey.mp3",
-  "https://upcdn.io/223k2TX/raw/B%20Woh.mp3",
-  "https://upcdn.io/223k2TX/raw/C%20Don't%20Cry%20%20-%20Guns%20N'%20Roses.mp3",
-  "https://upcdn.io/223k2TX/raw/D%20Tu%20Mera%20-%20Baibhab%20Roy.mp3",
-  "https://upcdn.io/223k2TX/raw/E%20So%20far%20away%20-%20Avenged%20Sevenfold.mp3",
-  "https://upcdn.io/223k2TX/raw/F%20Tum%20Ho%20Rockstar%20128%20Kbps.mp3",
-  "https://upcdn.io/223k2TX/raw/G%20Nirvana-Come-As-You-Are-_Official-Music-Video_.mp3",
-  "https://upcdn.io/223k2TX/raw/H%20Yeh%20Fitoor%20Mera%20-%20Fitoor%20128%20Kbps.mp3",
-  "https://upcdn.io/223k2TX/raw/I%20Billie%20Jean%20Michael%20Jackson%20128%20Kbps.mp3",
-  "https://upcdn.io/223k2TX/raw/J-%20Lady_Gaga_-_Shallow_feat_Bradley_Cooper_(mp3.pm).mp3",
-  "https://upcdn.io/223k2TX/raw/K-%20The%20Unforgiven%20(Remastered).mp3",
-  "https://upcdn.io/223k2TX/raw/L-%20The%20Emptiness%20Machine.mp3",
-  "https://upcdn.io/223k2TX/raw/M-%20Beggin.mp3",
-  "https://upcdn.io/223k2TX/raw/N-%20High%20On%20You%20Jind%20Universe.mp3",
-  "https://upcdn.io/223k2TX/raw/O%20-%20Chaandni.mp3",
-  "https://upcdn.io/223k2TX/raw/P-%20Sukoon%20%20Arijit-Singh.mp3",
-  "https://upcdn.io/223k2TX/raw/Q-%20For-A-Reason.mp3",
-  "https://upcdn.io/223k2TX/raw/R%20-%20Derek%20And%20The%20Dominos%20-%20Layla.mp3",
-  "https://upcdn.io/223k2TX/raw/S-%20BLACK%20SABBATH%20-%20Paranoid.mp3",
-  "https://upcdn.io/223k2TX/raw/T-%2021%20guns%20-Green-Day.mp3",
-  "https://upcdn.io/223k2TX/raw/U-%20Ghost_-_Spillways.mp3",
-  "https://upcdn.io/223k2TX/raw/V-%20Dhun%20Saiyaara.mp3",
-  "https://upcdn.io/223k2TX/raw/W-%20Lana_Del_Rey_-_Say_Yes_To_Heaven_CeeNaija.com_.mp3",
-  "https://upcdn.io/223k2TX/raw/X-%20Lana_Del_Rey_-_Young_And_Beautiful.mp3",
-  "https://upcdn.io/223k2TX/raw/Y-%20Late%20Guests%20-%20Ansh.mp3",
-  "https://upcdn.io/223k2TX/raw/ZA-%20The_Weeknd_-_The_Abyss_2025_(SkySound.cc).mp3",
-  "https://upcdn.io/223k2TX/raw/ZB-%20Bang%20BangVishal%20Shekhar%2CBenny%2CNeeti.mp3",
-  "https://upcdn.io/223k2TX/raw/Zc-%20Mehndi%20Laga%20Ke%20Rakhna%20Dilwale%20Dulhania%20Le%20Jayenge%20128%20Kbps.mp3",
-  "https://upcdn.io/223k2TX/raw/ZD-%20Dil%20Kaa%20Jo%20Haal%20Hai%20Besharam%20128%20Kbps.mp3"
+    "https://upcdn.io/223k2TX/raw/A%20Doin%20Time%20-%20Lana%20Del%20Rey.mp3",
+    "https://upcdn.io/223k2TX/raw/B%20Woh.mp3",
+    "https://upcdn.io/223k2TX/raw/C%20Don't%20Cry%20%20-%20Guns%20N'%20Roses.mp3",
+    "https://upcdn.io/223k2TX/raw/D%20Tu%20Mera%20-%20Baibhab%20Roy.mp3",
+    "https://upcdn.io/223k2TX/raw/E%20So%20far%20away%20-%20Avenged%20Sevenfold.mp3",
+    "https://upcdn.io/223k2TX/raw/F%20Tum%20Ho%20Rockstar%20128%20Kbps.mp3",
+    "https://upcdn.io/223k2TX/raw/G%20Nirvana-Come-As-You-Are-_Official-Music-Video_.mp3",
+    "https://upcdn.io/223k2TX/raw/H%20Yeh%20Fitoor%20Mera%20-%20Fitoor%20128%20Kbps.mp3",
+    "https://upcdn.io/223k2TX/raw/I%20Billie%20Jean%20Michael%20Jackson%20128%20Kbps.mp3",
+    "https://upcdn.io/223k2TX/raw/J-%20Lady_Gaga_-_Shallow_feat_Bradley_Cooper_(mp3.pm).mp3",
+    "https://upcdn.io/223k2TX/raw/K-%20The%20Unforgiven%20(Remastered).mp3",
+    "https://upcdn.io/223k2TX/raw/L-%20The%20Emptiness%20Machine.mp3",
+    "https://upcdn.io/223k2TX/raw/M-%20Beggin.mp3",
+    "https://upcdn.io/223k2TX/raw/N-%20High%20On%20You%20Jind%20Universe.mp3",
+    "https://upcdn.io/223k2TX/raw/O%20-%20Chaandni.mp3",
+    "https://upcdn.io/223k2TX/raw/P-%20Sukoon%20%20Arijit-Singh.mp3",
+    "https://upcdn.io/223k2TX/raw/Q-%20For-A-Reason.mp3",
+    "https://upcdn.io/223k2TX/raw/R%20-%20Derek%20And%20The%20Dominos%20-%20Layla.mp3",
+    "https://upcdn.io/223k2TX/raw/S-%20BLACK%20SABBATH%20-%20Paranoid.mp3",
+    "https://upcdn.io/223k2TX/raw/T-%2021%20guns%20-Green-Day.mp3",
+    "https://upcdn.io/223k2TX/raw/U-%20Ghost_-_Spillways.mp3",
+    "https://upcdn.io/223k2TX/raw/V-%20Dhun%20Saiyaara.mp3",
+    "https://upcdn.io/223k2TX/raw/W-%20Lana_Del_Rey_-_Say_Yes_To_Heaven_CeeNaija.com_.mp3",
+    "https://upcdn.io/223k2TX/raw/X-%20Lana_Del_Rey_-_Young_And_Beautiful.mp3",
+    "https://upcdn.io/223k2TX/raw/Y-%20Late%20Guests%20-%20Ansh.mp3",
+    "https://upcdn.io/223k2TX/raw/ZA-%20The_Weeknd_-_The_Abyss_2025_(SkySound.cc).mp3",
+    "https://upcdn.io/223k2TX/raw/ZB-%20Bang%20BangVishal%20Shekhar%2CBenny%2CNeeti.mp3",
+    "https://upcdn.io/223k2TX/raw/Zc-%20Mehndi%20Laga%20Ke%20Rakhna%20Dilwale%20Dulhania%20Le%20Jayenge%20128%20Kbps.mp3",
+    "https://upcdn.io/223k2TX/raw/ZD-%20Dil%20Kaa%20Jo%20Haal%20Hai%20Besharam%20128%20Kbps.mp3"
 ];
 
 let playerBox = document.querySelector(".player-box");
@@ -245,6 +245,8 @@ document.querySelector(".seekbar").addEventListener('click', e => {
 let left = document.querySelector(".left");
 let leftBar = document.querySelector(".left-bar");
 let cross = document.querySelector(".cross");
+let find = document.querySelector(".create");
+let toHide = document.querySelector(".to-be-hide");
 
 
 leftBar.addEventListener("click", () => {
@@ -252,6 +254,12 @@ leftBar.addEventListener("click", () => {
     left.style.position = "fixed";
     leftBar.querySelector("i").style.color = "#1DB954";
     cross.classList.remove("hidden");
+    find.addEventListener("click", () => {
+        cross.classList.add("hidden");
+        leftBar.querySelector("i").style.color = "#FFFFFF";
+        left.style.left = "-100" + "%";
+        
+    })
 });
 
 cross.addEventListener("click", () => {
@@ -259,6 +267,11 @@ cross.addEventListener("click", () => {
     leftBar.querySelector("i").style.color = "#FFFFFF";
     left.style.left = "-100" + "%";
 });
+
+let podcast = document.querySelector(".podcast"); 
+podcast.addEventListener("click", ()=>{
+    window.open("https://open.spotify.com/genre/0JQ5DArNBzkmxXHCqFLx2J", "_blank");
+})
 
 
 
@@ -298,4 +311,55 @@ vol.addEventListener("input", (e) => {
 
 // Initial call on page load:
 updateVolumeBar();
+
+
+
+
+
+let rightPlaylist = document.querySelector(".right-playlist");
+let right = document.querySelector(".right");
+let home = document.querySelector(".home-logo");
+find.addEventListener("click", () => {
+    toHide.classList.add("hide-no-mouse");
+    if(audio){
+        playerBox.style.bottom = "0";
+    }
+    rightPlaylist.classList.remove("hidden-display");
+    toHide.style.display = "none";
+    right.style.width = "0px";
+
+    home.addEventListener("click", () => {
+        toHide.classList.remove("hide-no-mouse");
+        rightPlaylist.classList.add("hidden-display");
+        right.style.width = "";
+        toHide.style.display = "block";
+    })
+});
+
+const playlistButtons = document.querySelectorAll(".playlist-button");
+
+playlistButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const appLink = button.getAttribute("data-app");
+        const webLink = button.getAttribute("data-web");
+
+        //safety check to prevent /null
+        if (!appLink || !webLink) {
+            console.error("Missing data-app or data-web for:", button);
+            return;
+        }
+        console.log("Clicked:", appLink, webLink);
+
+
+        // Try opening in app
+        window.location = appLink;
+
+        // Fallback to web after short delay
+        setTimeout(() => {
+            window.open(webLink, "_blank");
+        }, 600);
+    });
+});
+
+
 

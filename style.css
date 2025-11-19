@@ -377,6 +377,7 @@ span {
 
 .player-box {
     position: fixed;
+    left: 25rem;
     bottom: -6rem;
     height: 2.8rem;
     margin-bottom: 0.5rem;
@@ -560,6 +561,66 @@ span {
 }
 
 
+.right-playlist {
+    position: relative;
+    right: 0;
+    padding: 3rem;
+    display: flex;
+    gap: 2rem;
+    width: 75vw;
+}
+
+.playlist-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.playlist-card {
+    width: 11rem;
+    height: 14rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 0.5rem;
+    background-color: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.playlist-card:hover {
+    background-color: #1F1F1F;
+}
+
+.playlist-card img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.4rem;
+}
+
+.playlist-card:hover .play {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1400px) {
@@ -570,6 +631,10 @@ span {
         z-index: 10000;
         width: 50vw;
         height: 75vh;
+    }
+
+    .right-playlist {
+        width: 100vw !important;
     }
 
     .right {
@@ -592,6 +657,9 @@ span {
     }
 
     .player-box {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
         width: 90vw;
     }
 
@@ -627,6 +695,10 @@ span {
         height: 3.5rem;
     }
 
+    .right-playlist {
+        flex-wrap: wrap;
+    }
+
     .small-search {
         display: block !important;
         display: flex !important;
@@ -640,9 +712,18 @@ span {
 
 @media(max-width: 1150px) {
 
-    .song-cards{
+    .playlist-card {
+        width: 10rem;
+        height: 13rem;
+        padding: 0.9rem;
+        padding-bottom: 2.8rem;
+        border-radius: 0.5rem;
+    }
+
+    .song-cards {
         padding-bottom: 5rem;
     }
+
 
     .display-name {
         position: absolute;
@@ -677,9 +758,9 @@ span {
 
     nav span,
     .install,
-    .home-logo i,
-    .home-logo {
-        display: none;
+    .small-search i,
+    .small-search {
+        display: none !important;
     }
 
     .left {
@@ -693,10 +774,6 @@ span {
         width: 5rem;
     }
 
-    .home-logo {
-        display: none !important;
-    }
-
     .songtime {
         left: 1rem;
     }
@@ -705,6 +782,13 @@ span {
         position: absolute;
         right: 1.5rem;
         gap: 1rem;
+    }
+
+    .playlist-card {
+        width: 9rem;
+        height: 12rem;
+        padding: 0.8rem;
+        padding-bottom: 2.7rem;
     }
 }
 
@@ -716,6 +800,13 @@ span {
 
     .seekbar {
         right: 4rem;
+    }
+
+    .playlist-card {
+        width: 8rem;
+        height: 11rem;
+        padding: 0.8rem;
+        padding-bottom: 2.7rem;
     }
 }
 
@@ -811,8 +902,9 @@ span {
         left: 3.8rem;
     }
 }
+
 @media (max-width: 370px) {
-    .seekbar{
+    .seekbar {
         position: absolute;
         width: 13rem;
         left: 2.8rem;
@@ -847,8 +939,7 @@ span {
         bottom: 0.2rem !important;
     }
 
-    .auto-play{
+    .auto-play {
         display: flex;
     }
 }
-
